@@ -1,0 +1,1 @@
+Welcome to my professional portfolio—a collection of my skills, projects, and creative work in Information Technology. This portfolio showcases my experience in web development, graphic and digital design, multimedia editing, and technology-based projects. It reflects my passion for creativity, continuous learning, and developing innovative digital solutions.
