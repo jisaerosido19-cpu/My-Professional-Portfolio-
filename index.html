@@ -1,0 +1,543 @@
+<!DOCTYPE html>  <html lang="en">  
+<head>  
+  <meta charset="UTF-8" />  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />  
+  <title>Jisa Erosido | Portfolio</title>    <!-- FONTS & ICONS -->    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">""    <style>  
+    
+    
+   "Poppins", sans-serif;  
+  color: #333;  
+  scroll-behavior: smooth;  
+  background: linear-gradient(270deg,   
+    #ffb6f9,    /* light pink */  
+    #c79bff,    /* lavender */  
+    #a1c4fd,    /* soft sky blue */  
+    #ff9a9e,    /* blush pink */  
+    #fad0c4,    /* peach */  
+    #b5fffc     /* mint blue */  
+  );  
+  background-size: 1000% 1000%;  
+  animation: dreamyFlow 25s ease infinite;  
+}  
+  
+/* Background animation effect */  
+@keyframes dreamyFlow {  
+  0%   { background-position: 0% 50%; }  
+  50%  { background-position: 100% 50%; }  
+  100% { background-position: 0% 50%; }  
+}  
+  
+  
+  
+body::before {  
+  content: "";  
+  position: fixed;  
+  top: 0; left: 0;  
+  width: 100%; height: 100%;  
+  background: radial-gradient(circle at 30% 30%, rgba(255,255,255,0.2), transparent 70%),  
+              radial-gradient(circle at 70% 70%, rgba(255,255,255,0.15), transparent 70%);  
+  animation: floatLight 12s ease-in-out infinite alternate;  
+  z-index: -1;  
+}  
+  
+@keyframes floatLight {  
+  0% { transform: translate(0, 0) scale(1); }  
+  100% { transform: translate(30px, 30px) scale(1.2); }  
+}  
+  
+    
+    
+    * { box-sizing: border-box; margin: 0; padding: 0; }  
+    body {  
+      font-family: "Poppins", sans-serif;  
+      background: linear-gradient(135deg, #f8f9ff, #eef1ff);  
+      color: #333;  
+      scroll-behavior: smooth;  
+    }  
+header {  
+    
+    
+ "Poppins", sans-serif;  
+  color: #333;  
+  scroll-behavior: smooth;  
+  background: linear-gradient(270deg,   
+    #ffb6f9,    /* light pink */  
+    #c79bff,    /* lavender */  
+    #a1c4fd,    /* soft sky blue */  
+    #ff9a9e,    /* blush pink */  
+    #fad0c4,    /* peach */  
+    #b5fffc     /* mint blue */  
+  );  
+  background-size: 1000% 1000%;  
+  animation: dreamyFlow 25s ease infinite;  
+}  
+  
+/* Background animation effect */  
+@keyframes dreamyFlow {  
+  0%   { background-position: 0% 50%; }  
+  50%  { background-position: 100% 50%; }  
+  100% { background-position: 0% 50%; }  
+}  
+  
+  
+  
+body::before {  
+  content: "";  
+  position: fixed;  
+  top: 0; left: 0;  
+  width: 100%; height: 100%;  
+  background: radial-gradient(circle at 30% 30%, rgba(255,255,255,0.2), transparent 70%),  
+              radial-gradient(circle at 70% 70%, rgba(255,255,255,0.15), transparent 70%);  
+  animation: floatLight 12s ease-in-out infinite alternate;  
+  z-index: -1;  
+}  
+  
+@keyframes floatLight {  
+  0% { transform: translate(0, 0) scale(1); }  
+  100% { transform: translate(30px, 30px) scale(1.2); }  
+}  
+  
+  
+  
+    
+    
+  background: linear-gradient(135deg,   
+    #ffb6f9,   /* soft pink */  
+    #d18cff,   /* violet */  
+    #6a11cb,   /* deep purple */  
+    #2575fc,   /* royal blue */  
+    #00f2fe    /* aqua blue */  
+  );  
+  background-size: 400% 400%;  
+  animation: homeGradient 10s ease infinite;  
+  color: white;  
+  padding: 90px 20px;  
+  text-align: center;  
+  box-shadow: 0 3px 25px rgba(0, 0, 0, 0.25);  
+  position: relative;  
+  border-bottom: 5px solid rgba(255, 255, 255, 0.3);  
+}  
+@keyframes homeGradient {  
+  0% { background-position: 0% 50%; }  
+  50% { background-position: 100% 50%; }  
+  100% { background-position: 0% 50%; }  
+}  
+header h1 {  
+  font-size: 3.5rem;  
+  letter-spacing: 2px;  
+  margin-bottom: 15px;  
+  text-shadow:   
+    0 0 15px rgba(255, 255, 255, 0.9),  
+    0 0 25px #ffb6f9,  
+    0 0 45px #a64aff;  
+  animation: textGlow 2s ease-in-out infinite alternate;  
+}  
+@keyframes textGlow {  
+  0% { text-shadow: 0 0 10px #ffb6f9, 0 0 25px #a64aff; }  
+  100% { text-shadow: 0 0 20px #00f2fe, 0 0 45px #6a11cb; }  
+}  
+header p {  
+  font-size: 1.3rem;  
+  color: #fff;  
+  background: linear-gradient(135deg, #ffb6f9, #c79bff, #b388ff, #ff8ed6);  
+  background-size: 300% 300%;  
+  animation: headerPFlow 8s ease infinite;  
+  padding: 12px 25px;  
+  border-radius: 25px;  
+  display: inline-block;  
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.9);  
+  box-shadow: 0 4px 20px rgba(255, 105, 180, 0.3);  
+  margin-top: 10px;  
+}  
+  
+/* Background animation */  
+@keyframes headerPFlow {  
+  0% { background-position: 0% 50%; }  
+  50% { background-position: 100% 50%; }  
+  100% { background-position: 0% 50%; }  
+}  
+}  
+  
+    header {  
+      background: linear-gradient(90deg, #5a5be1, #8e44ad);  
+      color: white;  
+      padding: 70px 20px;  
+      text-align: center;  
+      box-shadow: 0 3px 15px rgba(0,0,0,0.25);  
+    }  
+    header h1 { font-size: 2.8rem; margin-bottom: 10px; }  
+    header p { font-size: 1.2rem; }  
+    nav {  
+      position: sticky; top: 0;  
+      background-color: #23243a;  
+      display: flex; justify-content: center; flex-wrap: wrap;  
+      gap: 15px; padding: 12px 0; z-index: 1000;  
+    }  
+    nav a {  
+      color: white; text-decoration: none; font-weight: 500;  
+      padding: 10px 18px; border-radius: 8px; transition: 0.3s;  
+    }  
+    nav a:hover { background-color: #5a5be1; }  
+  
+    /* SECTIONS */  
+    section { padding: 80px 25px; text-align: center; }  
+    h2 { color: #5a5be1; font-size: 2.2rem; margin-bottom: 25px; }  
+    p { max-width: 850px; margin: 0 auto 10px; line-height: 1.7; }  
+    .quote { font-style: italic; color: #777; margin-top: 15px; }  
+  
+    /* ABOUT */  
+    #about img {  
+      width: 260px; border-radius: 50%; margin: 20px 0;  
+      box-shadow: 0 6px 15px rgba(0,0,0,0.3);  
+    }  
+  
+  
+#about {  
+  background: linear-gradient(135deg, #ffb6f9, #e1b0ff, #d18cff, #ff8ed6);  
+  background-size: 400% 400%;  
+  animation: sectionFlow1 10s ease infinite;  
+  padding: 90px 25px;  
+  border-radius: 20px;  
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);  
+  color: #222;  
+  text-align: center;  
+}  
+  
+    /* SKILLS */  
+    .skills-grid {  
+      display: flex; justify-content: center; flex-wrap: wrap; gap: 30px; margin-top: 50px;  
+    }  
+    .skill-card {  
+      background: white; border-radius: 20px; box-shadow: 0 6px 15px rgba(0,0,0,0.15);  
+      width: 320px; padding: 25px; border-top: 6px solid #8e44ad;  
+      transition: 0.3s;  
+    }  
+    .skill-card:hover { transform: translateY(-10px); box-shadow: 0 15px 25px rgba(0,0,0,0.2); }  
+    .skill-card i { font-size: 45px; color: #5a5be1; margin-bottom: 15px; }  
+    .skill-card figure img { width: 100%; height: 200px; border-radius: 12px; object-fit: cover; }  
+  
+    /* GALLERY */  
+    .image-container { display: flex; justify-content: center; flex-wrap: wrap; gap: 25px; margin-top: 40px; }  
+    figure img {  
+      width: 320px; height: 220px; border-radius: 16px; object-fit: cover;  
+      box-shadow: 0 6px 15px rgba(0,0,0,0.25);  
+      cursor: pointer; transition: 0.3s;  
+    }  
+    figure img:hover { transform: scale(1.05); box-shadow: 0 12px 22px rgba(0,0,0,0.3); }  
+    figure figcaption { margin-top: 10px; color: #444; font-weight: 500; }  
+  
+    /* TUTORIALS */  
+    #tutorials {  
+      background: linear-gradient(135deg, #f9f7ff, #edf0ff);  
+      border-top: 3px solid #8e44ad; border-bottom: 3px solid #5a5be1;  
+    }  
+    #tutorials h2 { color: #8e44ad; }  
+    .video-container { display: flex; justify-content: center; flex-wrap: wrap; gap: 25px; margin-top: 40px; }  
+    .tutorial img {  
+      width: 320px; height: 220px; object-fit: cover; border-radius: 16px;  
+      box-shadow: 0 5px 15px rgba(0,0,0,0.25);  
+      cursor: pointer; transition: 0.3s;  
+    }  
+    .tutorial img:hover { transform: scale(1.05); box-shadow: 0 10px 20px rgba(0,0,0,0.3); }  
+    .tutorial p { color: #555; margin-top: 8px; }  
+  
+    /* CONTACT */  
+    form {  
+      background: white; padding: 35px; max-width: 450px; margin: 40px auto;  
+      border-radius: 12px; box-shadow: 0 5px 20px rgba(0,0,0,0.1);  
+    }  
+    input, textarea {  
+      width: 100%; padding: 12px; margin-bottom: 18px; border-radius: 6px;  
+      border: 1px solid #ccc; font-family: "Poppins", sans-serif;  
+    }  
+    button {  
+      background-color: #5a5be1; color: white; padding: 12px; width: 100%;  
+      border: none; border-radius: 6px; font-size: 1rem; cursor: pointer; transition: 0.3s;  
+    }  
+    button:hover { background-color: #8e44ad; }  
+  
+    /* FOOTER */  
+    footer {  
+      background: linear-gradient(90deg, #5a5be1, #8e44ad);  
+      color: white; text-align: center; padding: 25px 0;  
+    }  
+    footer a { color: white; margin: 0 10px; font-size: 24px; }  
+  
+    /* MODAL */  
+    .modal {  
+      display: none; position: fixed; z-index: 9999; left: 0; top: 0;  
+      width: 100%; height: 100%; background-color: rgba(0,0,0,0.85);  
+      overflow: auto; padding-top: 60px;  
+    }  
+    .modal-content {  
+      margin: auto; display: block; max-width: 90%; max-height: 80vh;  
+      border-radius: 10px; animation: zoomIn 0.3s ease;  
+    }  
+    @keyframes zoomIn { from {transform: scale(0.5); opacity: 0;} to {transform: scale(1); opacity: 1;} }  
+    .close {  
+      position: absolute; top: 25px; right: 40px; color: white;  
+      font-size: 35px; font-weight: bold; cursor: pointer;  
+    }  
+  </style>  </head>  <body>  
+  <header>  
+    <h1>EROSIDO PORTFOLIO</h1>  
+  </header>    <nav>  
+    <a href="#home">Home</a>  
+    <a href="#about">About</a>  
+    <a href="#skills">Skills</a>
+     <a href="#Certificate">Skills</a> 
+    <a href="#gallery">Gallery</a>  
+    <a href="#tutorials">Tutorials</a>  
+    <a href="#outputs">Outputs</a>  
+    <a href="#contact">Contact</a>  
+  </nav>    <section id="home">  
+    <h2>Hello Welcome! 👋</h2>  
+    <p>where creativity meets purpose. Explore my works, projects, and designs built with passion and heart. 🌷</p>  
+    <p class="quote">“Creativity is not just about design — it’s about turning vision into reality.”</p>  
+  </section>    <section id="about">  
+  <h2>About Me</h2>  
+  <img src="/e/IMG_20260419_2125071.jpg" alt="Jisa Erosido">    <p><b>I'm Jisa Erosido</b> — an aspiring IT professional and creative designer passionate about combining technology and artistry. I believe that innovation begins with curiosity and grows through dedication and continuous learning.  
+   As an IT student, I aim to build not only technical skills but also problem-solving abilities that create meaningful digital solutions. I value precision, collaboration, and innovation — qualities that drive my journey toward becoming a well-rounded professional in the tech industry.</p>    <h3>🌸 Personal Motto</h3>  
+  <p class="quote">“Design with logic. Code with passion. Create with purpose.”</p>  
+</section>  
+  <section id="skills">  
+    <h2>My Skills</h2>  
+    <div class="skills-grid">  
+      <div class="skill-card">  
+        <i class="fa-solid fa-pen-nib"></i>  
+        <h3>Adobe Photoshop</h3>  
+        <figure><img src="5346430_f677.jpg" alt="Photoshop Work"></figure>  
+      </div>  
+      <div class="skill-card">  
+        <i class="fa-solid fa-video"></i>  
+        <h3>Adobe Premiere Pro</h3>  
+        <figure><img src="premiere-pro-updates-adobe-max.jpg" alt="Premiere Work"></figure>  
+      </div>  
+      <div class="skill-card">  
+        <i class="fa-solid fa-object-group"></i>  
+        <h3>Figma</h3>  
+        <figure><img src="Figma-Image.jpg" alt="Figma Work"></figure>  
+      </div>  
+    </div>    <div class="skills-quote">  
+    <p> </p>  
+    <p>“Design is intelligence made visible.”  
+    <p>“Creativity is allowing yourself to make mistakes. Design is knowing which ones to keep.”  
+  </div>  
+</section>    </section>  <div id="certificate" class="section">      
+  <div class="title"><i class="fas fa-award"></i> Certificates</div>      
+  <div class="photo-grid">    
+    <div class="photo-card">  
+      <img src="/rox/IMG_20260412_172617.jpg" alt="Certificate 1">  
+      <div class="cert-info">  
+        <span class="cert-title">IT Seminar Participation</span>  
+        <span class="cert-date"> March 05, 2026</span>  
+      </div>  
+    </div>  
+  <section id="gallery">  
+    <h2>My Projects</h2>  <div class="image-container">  
+  <figure><img src="jem.jpg" alt="Project 1"><figcaption>Creative T-shirt layout</figcaption></figure>  
+    
+   <div class="image-container">  
+  <figure><img src="IMG_20251030_171857.jpg" alt="Project 2"><figcaption>Creative Banner</figcaption></figure>  
+    
+    
+    <div class="image-container">  
+  <figure><img src="IMG_20251030_171815.jpg" alt="Project "><figcaption>Editing Vedio in Adobe premiere</figcaption></figure>  
+    
+    <div class="image-container">  
+  <figure><img src="IMG_20251030_171607.jpg" alt="Project 1"><figcaption>Website E-commerce</figcaption></figure>  
+    
+  <figure><img src="jessss.jpg" alt="Project 3"><figcaption>Product Layout in Adobe Photoshop </figcaption></figure>  
+  <figure><img src="jammmm.jpg" alt="Project 4"><figcaption>Cheese Board Design</figcaption></figure>  
+</div>
+
+  </section>    <section id="tutorials">  
+    <h2>Tutorial Vedio</h2>  
+    <div class="video-container">  
+      <div class="tutorial" data-video="https://www.youtube.com/embed/vecnvtvWmXk?autoplay=1">  
+        <img src="https://img.youtube.com/vi/vecnvtvWmXk/hqdefault.jpg" alt="Tutorial 1">  
+        <p>Figma Video Editing Tutorial</p>  
+      </div>  
+      <div class="tutorial" data-video="https://www.youtube.com/embed/emWedfQiP1A?autoplay=1">  
+        <img src="https://img.youtube.com/vi/emWedfQiP1A/hqdefault.jpg" alt="Tutorial 2">  
+        <p>Tutorial Website Design</p>  
+      </div>  
+      <div class="tutorial" data-video="https://www.youtube.com/embed/XKSNDxp-I14?autoplay=1">  
+        <img src="https://img.youtube.com/vi/XKSNDxp-I14/hqdefault.jpg" alt="Tutorial 3">  
+        <p>Figma Tutorial 💻</p>  
+      </div>  
+    </div>  
+  </section>  <section id="outputs">  
+  <h2>Simple and Creative Output </h2>  
+  <div class="output-container">  
+    <div class="output-box">  
+      <a href="https://www.canva.com/design/DAGwR4Yh78Q/jxs1-n53yNYULEUB9s4qXw/edit" target="_blank">  
+       • Canva Personal Portfolio  
+      </a>  
+      <p>This is my Canva portfolio output.</p>  
+    </div>  <div class="output-box">  
+  <a href="https://www.figma.com/design/eYAiyNUby8z5z5KlVghtWm/Untitled?node-id=0-1&t=wYjlj0THpCOTQ1BM-1" target="_blank">  
+   • Figma Personal Portfolio  
+  </a>  
+  <p>This is my Figma portfolio output.</p>  
+</div>  
+
+<div class="output-box">  
+  <a href="https://www.figma.com/proto/rSjTWPlqNsGi1G3E1eeTfD/JISA?node-id=4-45&p=f&t=XBExJglGv5NTss0i-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A45" target="_blank">  
+   • Figma Personal E-commerce  
+  </a>  
+  <p>This is my Figma e-commerce project.</p>  
+</div>
+
+  </div>  
+</section>  <style>  
+  #outputs {  
+    text-align: center;  
+    padding: 40px 20px;  
+    font-family: "Poppins", sans-serif;  
+  }  
+  
+  #outputs h2 {  
+    font-size: 28px;  
+    font-weight: 600;  
+    margin-bottom: 30px;  
+  }  
+  
+  .output-container {  
+    display: flex;  
+    flex-wrap: wrap;  
+    justify-content: center;  
+    gap: 20px;  
+  }  
+  
+  .output-box {  
+    background: #ffffff;  
+    border: 2px solid #e0e0e0;  
+    border-radius: 15px;  
+    padding: 20px;  
+    width: 280px;  
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  
+    transition: all 0.3s ease;  
+  }  
+  
+  .output-box:hover {  
+    transform: translateY(-5px);  
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);  
+  }  
+  
+  .output-box a {  
+    display: block;  
+    color: #007bff;  
+    font-size: 18px;  
+    font-weight: 500;  
+    text-decoration: none;  
+    margin-bottom: 10px;  
+  }  
+  
+  .output-box a:hover {  
+    color: #0056b3;  
+  }  
+  
+  .output-box p {  
+    font-size: 14px;  
+    color: #555;  
+  }  
+</style>    <section id="contact">  
+  <h2>Contact Me</h2>  
+  <p>I'd love to hear from you! Whether it's for collaboration, project inquiries, or creative discussions — feel free to reach out. 🌷</p>    <div class="contact-container">  
+     <div class="contact-info">  
+      <div class="info-item">  
+        <i class="fa-solid fa-envelope"></i>  
+        <p><b>Email:</b> jisaerosido@gmail.com</p>  
+      </div>  
+      <div class="info-item">  
+        <i class="fa-solid fa-phone"></i>  
+        <p><b>Phone:</b> +63 912 345 6789</p>  
+      </div>  
+      <div class="info-item">  
+        <i class="fa-solid fa-location-dot"></i>  
+        <p><b>Location:</b> Philippines 🇵🇭</p>  
+      </div>  
+    </div>  <form onsubmit="alert('Message sent successfully!'); return false;">  
+  <input type="text" placeholder="Your name" required>  
+  <input type="email" placeholder="Your email" required>  
+  <textarea rows="4" placeholder="Your message..." required></textarea>  
+  <button type="submit">Send Message</button>  
+</form>
+
+  </div>  
+</section>  
+ <footer>  
+    <p>© 2025 Jisa Erosido | All Rights Reserved</p>  
+    <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>  
+    <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>  
+  </footer>    <!-- MODAL -->    <div id="mediaModal" class="modal">  
+    <span class="close">&times;</span>  
+    <img id="zoomedImg" class="modal-content" style="display:none;">  
+    <iframe id="zoomedIframe" class="modal-content" style="display:none;" frameborder="0" allowfullscreen></iframe>  
+  </div>    <script>  
+    const modal = document.getElementById("mediaModal");  
+    const zoomedImg = document.getElementById("zoomedImg");  
+    const zoomedIframe = document.getElementById("zoomedIframe");  
+    const closeBtn = document.querySelector(".close");  
+  
+    // 📸 Zoom for Images  
+    document.querySelectorAll("figure img").forEach(img => {  
+      img.addEventListener("click", () => {  
+        modal.style.display = "block";  
+        zoomedImg.src = img.src;  
+        zoomedImg.style.display = "block";  
+        zoomedIframe.style.display = "none";  
+      });  
+    });  
+  
+    // 🎥 YouTube Video Play (Auto)  
+    document.querySelectorAll(".tutorial").forEach(tut => {  
+      tut.addEventListener("click", () => {  
+        modal.style.display = "block";  
+        zoomedIframe.src = tut.getAttribute("data-video");  
+        zoomedIframe.style.display = "block";  
+        zoomedImg.style.display = "none";  
+      });  
+    });  
+  
+    // ❌ Close Modal  
+    closeBtn.onclick = () => {  
+      modal.style.display = "none";  
+      zoomedImg.src = "";  
+      zoomedIframe.src = "";  
+    };  
+    window.onclick = e => { if (e.target === modal) closeBtn.onclick(); };  
+  </script>  </body>  
+</html>  <!DOCTYPE html>  <html lang="en">  
+<head>  
+  <meta charset="UTF-8" />  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />  
+  <title>Jisa Erosido | Portfolio</title>    <!-- FONTS & ICONS -->    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">    <style>  
+    * { box-sizing: border-box; margin: 0; padding: 0; }  
+    body {  
+      font-family: "Poppins", sans-serif;  
+      background: linear-gradient(135deg, #e3f2fd, #fce4ec, #ede7f6);  
+      color: #333;  
+      scroll-behavior: smooth;  
+    }  
+  
+    /* HEADER */  
+    header {  
+      background: linear-gradient(90deg, #7b4397, #dc2430);  
+      color: white;  
+      padding: 70px 20px;  
+      text-align: center;  
+      box-shadow: 0 3px 15px rgba(0,0,0,0.25);  
+    }  
+    header h1 {  
+      font-size: 3rem;  
+      margin-bottom: 10px;  
+      letter-spacing: 2px;  
+    }  
+    header p {  
+      font-size: 1.2rem;  
+      color: #f8eaff;  
+    }
